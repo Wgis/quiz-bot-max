@@ -1,0 +1,23 @@
+# Секреты — никогда в образ
+.env
+.env.*
+!.env.example
+
+# Зависимости и артефакты сборки
+node_modules/
+dist/
+
+# БД — монтируется как volume
+data/*.sqlite
+
+# Git-метаданные
+.git/
+.gitignore
+
+# Документация (не нужна в образе)
+*.md
+README*
+
+# OS-артефакты
+.DS_Store
+Thumbs.db

@@ -1,0 +1,131 @@
+{
+  "title": "История «Динамо» Волгоград",
+  "welcome_image": "images/welcome.jpg",
+  "welcome": "🏆 <b>Добро пожаловать в викторину «Динамо»!</b>\n\nГотовы проверить, насколько хорошо вы знаете историю «Динамо»?\n\nКо дню рождения общества «Динамо» мы подготовили для вас викторину о важных датах, событиях и традициях «Динамо» Волгоград.\n\nВспомним славные страницы истории и узнаем, кто по-настоящему хорошо знаком с легендой!\n\nВсего <b>7 вопросов</b>. Присоединяйтесь и проверьте свои знания!",
+  "questions": [
+    {
+      "id": 1,
+      "text": "В каком году в Сталинградском «Динамо» появился коллектив «Юный динамовец»?",
+      "image": "images/q1.jpg",
+      "options": [
+        "1934",
+        "1936",
+        "1927",
+        "1937"
+      ],
+      "correct": 0,
+      "feedback_correct": "",
+      "feedback_image_correct": null,
+      "feedback_wrong": "",
+      "feedback_image_wrong": null
+    },
+    {
+      "id": 2,
+      "text": "В какой дивизии служили большая часть спортсменов во время Великой Отечественной войны?",
+      "image": "images/q2.jpg",
+      "options": [
+        "39-й гвардейской дивизии",
+        "51-й гвардейской дивизии",
+        "10-й дивизии НКВД",
+        "13-й гвардейской дивизии"
+      ],
+      "correct": 2,
+      "feedback_correct": "",
+      "feedback_image_correct": null,
+      "feedback_wrong": "",
+      "feedback_image_wrong": null
+    },
+    {
+      "id": 3,
+      "text": "Как был назван первый футбольный товарищеский матч между «Динамо» и «Спартаком» в 1943 году?",
+      "image": "images/q3.jpg",
+      "options": [
+        "«Матч смерти»",
+        "«Гвардейцы в белом и синем»",
+        "Матч «На руинах Сталинграда»",
+        "«Ни шагу назад»"
+      ],
+      "correct": 2,
+      "feedback_correct": "",
+      "feedback_image_correct": null,
+      "feedback_wrong": "",
+      "feedback_image_wrong": null
+    },
+    {
+      "id": 4,
+      "text": "В каком году было образовано Сталинградское «Динамо»?",
+      "image": "images/q4.jpg",
+      "options": [
+        "1929",
+        "1932",
+        "1924",
+        "1923"
+      ],
+      "correct": 2,
+      "feedback_correct": "",
+      "feedback_image_correct": null,
+      "feedback_wrong": "",
+      "feedback_image_wrong": null
+    },
+    {
+      "id": 5,
+      "text": "Какое первоначальное название носил стадион до того, как в 1930 году его передали обществу «Динамо»?",
+      "image": "images/q5.jpg",
+      "options": [
+        "«Трактор»",
+        "«Красный Октябрь»",
+        "«Красный стадион»",
+        "«Центральный»"
+      ],
+      "correct": 2,
+      "feedback_correct": "",
+      "feedback_image_correct": null,
+      "feedback_wrong": "",
+      "feedback_image_wrong": null
+    },
+    {
+      "id": 6,
+      "text": "Что находилось на месте первого стадиона «Динамо» до того, как там начались спортивные работы?",
+      "image": "images/q6.jpg",
+      "options": [
+        "Городская свалка",
+        "Сенная площадь",
+        "Армейские казармы",
+        "Конюшни"
+      ],
+      "correct": 1,
+      "feedback_correct": "",
+      "feedback_image_correct": null,
+      "feedback_wrong": "",
+      "feedback_image_wrong": null
+    },
+    {
+      "id": 7,
+      "text": "Проводилась ли во время Великой Отечественной войны легкоатлетическая эстафета в Сталинграде?",
+      "image": "images/q7.jpg",
+      "options": [
+        "Да",
+        "Нет"
+      ],
+      "correct": 0,
+      "feedback_correct": "",
+      "feedback_image_correct": null,
+      "feedback_wrong": "",
+      "feedback_image_wrong": null
+    }
+  ],
+  "results": [
+    {
+      "min": 0,
+      "max": 3
+    },
+    {
+      "min": 4,
+      "max": 5
+    },
+    {
+      "min": 6,
+      "max": 7
+    }
+  ]
+}

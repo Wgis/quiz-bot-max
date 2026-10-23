@@ -1,0 +1,18 @@
+# Секреты
+.env
+.env.*
+!.env.example
+
+# БД
+data/*.sqlite
+data/*.sqlite-shm
+data/*.sqlite-wal
+
+# Артефакты сборки
+dist/
+node_modules/
+*.js.map
+
+# OS-артефакты
+.DS_Store
+Thumbs.db

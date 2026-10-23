@@ -1,0 +1,20 @@
+{
+  "name": "quiz-bot-max",
+  "version": "1.0.0",
+  "description": "MAX-бот викторина «Динамо»",
+  "main": "src/bot.ts",
+  "scripts": {
+    "start": "bun run src/bot.ts",
+    "dev": "bun --watch src/bot.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@maxhub/max-bot-api": "^1.0.2",
+    "dotenv": "^18.0.8"
+  },
+  "devDependencies": {
+    "@types/node": "24",
+    "bun-types": "^1.4.4",
+    "typescript": "5.9.3"
+  }
+}

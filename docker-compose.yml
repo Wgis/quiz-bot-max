@@ -1,0 +1,16 @@
+services:
+  quiz-bot-max:
+    build: .
+    image: quiz-bot-max:latest
+    container_name: quiz-bot-max
+    restart: unless-stopped
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+      - ADMIN_IDS=${ADMIN_IDS}
+    volumes:
+      # SQLite-база + runtime-копия quiz.json
+      - app-data:/app/data
+    # healthcheck унаследован из Dockerfile
+
+volumes:
+  app-data:
